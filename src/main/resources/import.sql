@@ -4,8 +4,8 @@
 -- insert into myentity (id, field) values(nextval('hibernate_sequence'), 'field-2');
 -- insert into myentity (id, field) values(nextval('hibernate_sequence'), 'field-3');
 
-insert into pessoa (id, cpf, nome) values(nextval('hibernate_sequence'), '111', 'Marco');
-insert into pessoa (id, cpf, nome) values(nextval('hibernate_sequence'), '222', 'Fredson');
+insert into pessoa (id, cpf, nome) values(nextval('hibernate_sequence'), '111', 'João');
+insert into pessoa (id, cpf, nome) values(nextval('hibernate_sequence'), '222', 'Mary');
 
 insert into estado (nome, sigla) values( 'Tocantins', 'TO');
 insert into estado (nome, sigla) values( 'Goiás', 'GO');
